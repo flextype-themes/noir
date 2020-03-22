@@ -1,0 +1,10 @@
+name: Noir
+version: 1.0.0
+description: Noir theme for Flextype.
+author:
+  name: Sergey Romanenko
+  email: support@flextype.org
+  url: http://digital.flextype.org
+homepage: https://github.com/flextype-themes/noir
+bugs: https://github.com/flextype-themes/noir/issues
+license: MIT
