@@ -19,7 +19,7 @@ gulp.task("css", function() {
     .pipe(postcss([atimport(), tailwindcss(tailwindConfig)]))
     .pipe(
       purgecss({
-        content: ["**/*.html", "../../**/*.md"],
+        content: ["templates/**/*.html", "../../**/*.md"],
         extractors: [
           {
             extractor: TailwindExtractor = (content) => {
@@ -52,5 +52,5 @@ gulp.task('default', gulp.series(
  * Task: gulp watch
  */
 gulp.task('watch', function () {
-    gulp.watch(["**/*.html", "../../**/*.md", "assets/src/"], gulp.series('css'));
+    gulp.watch(["templates/**/*.html", "../../**/*.md", "assets/src/"], gulp.series('css'));
 });
