@@ -8,3 +8,6 @@ author:
 homepage: https://github.com/flextype-themes/noir
 bugs: https://github.com/flextype-themes/noir/issues
 license: MIT
+
+dependencies:
+  flextype: 0.9.7
