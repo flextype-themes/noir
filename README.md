@@ -24,8 +24,9 @@ The following dependencies need to be downloaded and installed for Noir Theme.
 
 ## Installation
 
-* Download & Install all required dependencies.
-* Download Noir Theme and unzip plugin to the folder /project/themes/
+1. Download & Install all required dependencies.
+2. Create new folder `/project/themes/noir`
+3. Download Noir Theme and unzip theme to the folder `/project/themes/noir`
 
 ## LICENSE
 [The MIT License (MIT)](https://github.com/flextype-themes/noir/blob/master/LICENSE.txt)
