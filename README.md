@@ -1,4 +1,4 @@
-<h1 align="center">Noir Theme for <a href="http://flextype.org/">Flextype</a></h1>
+<h1 align="center">Noir Theme for <a href="https://flextype.org/">Flextype</a></h1>
 
 ![preview](preview.png)
 
@@ -19,19 +19,20 @@ The following dependencies need to be downloaded and installed for Noir Theme.
 
 | Item | Version | Download |
 |---|---|---|
-| [flextype](https://github.com/flextype/flextype) | 0.9.8 | [download](https://github.com/flextype/flextype/releases/download/v0.9.8/flextype-0.9.8.zip) |
+| [flextype](https://github.com/flextype/flextype) | 0.9.8 | [download](https://github.com/flextype/flextype/releases) |
 
 ### Plugins
 | Item | Version | Download |
 |---|---|---|
-| [site](https://github.com/flextype-plugins/site) | 1.0.0 | [download](https://github.com/flextype-plugins/site/releases/download/v1.0.0/site-1.0.0.zip) |
-| [twig](https://github.com/flextype-plugins/twig) | 1.0.0 | [download](https://github.com/flextype-plugins/twig/releases/download/v1.0.0/twig-1.0.0.zip) |
+| [site](https://github.com/flextype-plugins/site) | >=1.0.0 | [download](https://github.com/flextype-plugins/site/releases) |
+| [twig](https://github.com/flextype-plugins/twig) | >=1.0.0 | [download](https://github.com/flextype-plugins/twig/releases) |
 
 ## Installation
 
 1. Download & Install all required dependencies.
 2. Create new folder `/project/themes/noir`
 3. Download Noir Theme and unzip theme to the folder `/project/themes/noir`
+4. Update setting `theme` with new value `noir` in `/project/config/plugins/site/settings.yaml`
 
 ## LICENSE
 [The MIT License (MIT)](https://github.com/flextype-themes/noir/blob/master/LICENSE.txt)
