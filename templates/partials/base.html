@@ -20,7 +20,7 @@
             <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
             {% set theme = registry.get('plugins.site.settings.theme') %}
-            {% do registry.set('assets.site.css.' ~ [], 'project/themes/' ~ theme ~ '/assets/dist/css/build.min.css') %}
+            {% do registry.set('assets.site.css.ness', 'project/themes/' ~ theme ~ '/assets/dist/css/build.min.css') %}
 
             {% if registry.has('assets.site.css') %}
                 {% for css in registry.get('assets.site.css') %}
@@ -42,12 +42,7 @@
                 </div>
                 <div class="w-full float-right lg:w-9/12 font-noirpro-semibold">
                     <div class="text-right p-2">
-                        {% for item in entries.fetch('', {
-                            'order_by': {
-                                'field': 'menu_item_order',
-                                'direction': 'asc'
-                            }
-                        }) %}
+                        {% for item in collect(entries.fetchCollection('')).orderBy('menu_item_order', 'ASC').all() %}
                             {% if item.menu_item_title %}
                                 <a
                                     href="{{ url() }}/{{ item.menu_item_url }}"
