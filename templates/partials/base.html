@@ -58,7 +58,7 @@
                                   hover:border-white
                                   lg:inline-block
                                   {% if loop.last %}lg:mr-0{% else %}lg:mr-4{% endif %}
-                                  {% if item.menu_item_url in entry.slug %}border-white{% endif %}">
+                                  {% if item.menu_item_url in entry.id %}border-white{% endif %}">
                                     {{ item.menu_item_title }}
                                 </a>
                             {% endif %}
