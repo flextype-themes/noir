@@ -1,3 +1,10 @@
+<a name="1.4.1"></a>
+# [1.4.1](https://github.com/flextype-themes/noir) (2020-12-07)
+
+### Bug fixes
+
+* **core** fix navigation
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/flextype-themes/noir) (2020-12-07)
 
