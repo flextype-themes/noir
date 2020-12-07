@@ -1,3 +1,10 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/flextype-themes/noir) (2020-12-07)
+
+### Features
+
+* **core** update code base for new Flextype 0.9.12
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/flextype-themes/noir) (2020-08-25)
 
