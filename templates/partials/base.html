@@ -42,7 +42,7 @@
                 </div>
                 <div class="w-full float-right lg:w-9/12 font-noirpro-semibold">
                     <div class="text-right p-2">
-                        {% for item in entries.fetchCollection('').sortBy('menu_item_order', 'ASC').all() %}
+                        {% for item in entries.fetch('', {'collection': true}).sortBy('menu_item_order', 'ASC').all() %}
                             {% if item.menu_item_title %}
                                 <a
                                     href="{{ url() }}/{{ item.menu_item_url }}"
