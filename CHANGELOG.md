@@ -1,3 +1,11 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/flextype-themes/noir) (2020-12-30)
+
+### Features
+
+* **core** update code base for new Flextype 0.9.14
+* **core** use new TWIG Plugin 1.7.0
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/flextype-themes/noir) (2020-12-20)
 
