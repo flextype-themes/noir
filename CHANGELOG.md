@@ -1,3 +1,17 @@
+<a name="1.8.1"></a>
+# [1.8.1](https://github.com/flextype-themes/noir) (2021-01-07)
+
+### Bug Fixes
+
+* **core:** fix issue with content container.
+
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/flextype-themes/noir) (2021-01-07)
+
+### Features
+
+* **core** update code base for new Twig 2 plugin.
+
 <a name="1.7.0"></a>
 # [1.7.0](https://github.com/flextype-themes/noir) (2021-01-03)
 

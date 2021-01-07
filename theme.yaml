@@ -1,5 +1,5 @@
 name: Noir
-version: 1.7.0
+version: 1.8.1
 description: Noir theme for Flextype.
 author:
   name: Sergey Romanenko
@@ -12,4 +12,4 @@ license: MIT
 dependencies:
   flextype: 0.9.15
   site: '>=1.0.0'
-  twig: '>=1.0.0'
+  twig: '>=2.0.0'
