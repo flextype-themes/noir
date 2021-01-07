@@ -25,7 +25,7 @@ The following dependencies need to be downloaded and installed for Noir Theme.
 | Item | Version | Download |
 |---|---|---|
 | [site](https://github.com/flextype-plugins/site) | >=1.0.0 | [download](https://github.com/flextype-plugins/site/releases) |
-| [twig](https://github.com/flextype-plugins/twig) | >=1.0.0 | [download](https://github.com/flextype-plugins/twig/releases) |
+| [twig](https://github.com/flextype-plugins/twig) | >=2.0.0 | [download](https://github.com/flextype-plugins/twig/releases) |
 
 ## Installation
 

@@ -1,3 +1,10 @@
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/flextype-themes/noir) (2021-01-07)
+
+### Features
+
+* **core** update code base for new Twig 2 plugin.
+
 <a name="1.7.0"></a>
 # [1.7.0](https://github.com/flextype-themes/noir) (2021-01-03)
 
